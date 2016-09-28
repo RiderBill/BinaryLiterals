@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C8C148BC-B46B-4483-AE84-F684942E3EA4}</ProjectGuid>
     <RootNamespace>BinaryLiterals</RootNamespace>
+    <ProjectName>BinaryLiterals</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,7 +78,7 @@
     <ClInclude Include="SourceCode\StdAfx.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\ReadMe.txt" />
+    <Text Include="..\ReadMeBinaryLiterals.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
